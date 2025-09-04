@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-stylesheet type="text/xsl" href="/forest/default.xsl"?>
-<fr:tree xmlns:fr="http://www.forester-notes.org" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:xml="http://www.w3.org/XML/1998/namespace" root="false" base-url="/forest/">
+<?xml-stylesheet type="text/xsl" href="/default.xsl"?>
+<fr:tree xmlns:fr="http://www.forester-notes.org" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:xml="http://www.w3.org/XML/1998/namespace" root="false" base-url="/">
   <fr:frontmatter>
     <fr:authors>
       <fr:author>
-        <fr:link href="/forest/nitin/" title="Nitin G" uri="https://machanhoid.github.io/forest/nitin/" display-uri="nitin" type="local">Nitin G</fr:link>
+        <fr:link href="/nitin/" title="Nitin G" uri="https://machanhoid.github.io/nitin/" display-uri="nitin" type="local">Nitin G</fr:link>
       </fr:author>
     </fr:authors>
     <fr:date>
@@ -12,12 +12,21 @@
       <fr:month>9</fr:month>
       <fr:day>4</fr:day>
     </fr:date>
-    <fr:uri>https://machanhoid.github.io/forest/0004/</fr:uri>
-    <fr:display-uri>0004</fr:display-uri>
-    <fr:route>/forest/0004/</fr:route>
-    <fr:title text="The Setting">The Setting</fr:title>
+    <fr:uri>https://machanhoid.github.io/0002/</fr:uri>
+    <fr:display-uri>0002</fr:display-uri>
+    <fr:route>/0002/</fr:route>
+    <fr:title text="Resources">Resources</fr:title>
   </fr:frontmatter>
-  <fr:mainmatter />
+  <fr:mainmatter>
+    <html:p>These are a compilation of papers and other resources:</html:p>
+    <html:ol><html:li><fr:link href="https://kcsrk.info/papers/tallyguard_jan_25.pdf" type="external">TallyGuard</fr:link> : Paper written by KC and Athish</html:li>
+    <html:li><fr:link href="https://arxiv.org/pdf/1504.03778" type="external">E2E Verifiablity</fr:link> - To understand the setting, written for general audience</html:li>
+    <html:li><fr:link href="https://people.csail.mit.edu/rivest/pubs/Kan10.pdf" type="external">Voting and Verifiablity</fr:link> - Article for general audience</html:li>
+    <html:li>Survey on Randomness Homomorphic Commitment Schemes by Simon Wülker</html:li>
+    <html:li><fr:link href="https://www.bsi.bund.de/SharedDocs/Downloads/EN/BSI/Publications/Studies/Cryptography/End-to-End-Verifiable_Online-Voting.pdf?__blob=publicationFile&amp;v=4page=90.15" type="external">A Study of Mechanisms for End-to-End Verifiable Online Voting</fr:link>
+    - A not so technical survey</html:li>
+    <html:li><fr:link href="https://www.iacr.org/archive/pkc2013/77780476/77780476.pdf" type="external">Verifiable Elections That Scale for Free</fr:link></html:li></html:ol>
+  </fr:mainmatter>
   <fr:backmatter>
     <fr:tree show-metadata="false" hidden-when-empty="true">
       <fr:frontmatter>
@@ -36,7 +45,7 @@
           <fr:frontmatter>
             <fr:authors>
               <fr:author>
-                <fr:link href="/forest/nitin/" title="Nitin G" uri="https://machanhoid.github.io/forest/nitin/" display-uri="nitin" type="local">Nitin G</fr:link>
+                <fr:link href="/nitin/" title="Nitin G" uri="https://machanhoid.github.io/nitin/" display-uri="nitin" type="local">Nitin G</fr:link>
               </fr:author>
             </fr:authors>
             <fr:date>
@@ -44,9 +53,9 @@
               <fr:month>9</fr:month>
               <fr:day>4</fr:day>
             </fr:date>
-            <fr:uri>https://machanhoid.github.io/forest/0001/</fr:uri>
+            <fr:uri>https://machanhoid.github.io/0001/</fr:uri>
             <fr:display-uri>0001</fr:display-uri>
-            <fr:route>/forest/0001/</fr:route>
+            <fr:route>/0001/</fr:route>
             <fr:title text="Verifiable Elections">Verifiable Elections</fr:title>
           </fr:frontmatter>
           <fr:mainmatter>
@@ -54,7 +63,7 @@
               <fr:frontmatter>
                 <fr:authors>
                   <fr:author>
-                    <fr:link href="/forest/nitin/" title="Nitin G" uri="https://machanhoid.github.io/forest/nitin/" display-uri="nitin" type="local">Nitin G</fr:link>
+                    <fr:link href="/nitin/" title="Nitin G" uri="https://machanhoid.github.io/nitin/" display-uri="nitin" type="local">Nitin G</fr:link>
                   </fr:author>
                 </fr:authors>
                 <fr:date>
@@ -62,9 +71,9 @@
                   <fr:month>9</fr:month>
                   <fr:day>4</fr:day>
                 </fr:date>
-                <fr:uri>https://machanhoid.github.io/forest/0002/</fr:uri>
+                <fr:uri>https://machanhoid.github.io/0002/</fr:uri>
                 <fr:display-uri>0002</fr:display-uri>
-                <fr:route>/forest/0002/</fr:route>
+                <fr:route>/0002/</fr:route>
                 <fr:title text="Resources">Resources</fr:title>
               </fr:frontmatter>
               <fr:mainmatter>
@@ -82,7 +91,7 @@
               <fr:frontmatter>
                 <fr:authors>
                   <fr:author>
-                    <fr:link href="/forest/nitin/" title="Nitin G" uri="https://machanhoid.github.io/forest/nitin/" display-uri="nitin" type="local">Nitin G</fr:link>
+                    <fr:link href="/nitin/" title="Nitin G" uri="https://machanhoid.github.io/nitin/" display-uri="nitin" type="local">Nitin G</fr:link>
                   </fr:author>
                 </fr:authors>
                 <fr:date>
@@ -90,9 +99,9 @@
                   <fr:month>9</fr:month>
                   <fr:day>4</fr:day>
                 </fr:date>
-                <fr:uri>https://machanhoid.github.io/forest/0004/</fr:uri>
+                <fr:uri>https://machanhoid.github.io/0004/</fr:uri>
                 <fr:display-uri>0004</fr:display-uri>
-                <fr:route>/forest/0004/</fr:route>
+                <fr:route>/0004/</fr:route>
                 <fr:title text="The Setting">The Setting</fr:title>
               </fr:frontmatter>
               <fr:mainmatter />
@@ -101,7 +110,7 @@
               <fr:frontmatter>
                 <fr:authors>
                   <fr:author>
-                    <fr:link href="/forest/nitin/" title="Nitin G" uri="https://machanhoid.github.io/forest/nitin/" display-uri="nitin" type="local">Nitin G</fr:link>
+                    <fr:link href="/nitin/" title="Nitin G" uri="https://machanhoid.github.io/nitin/" display-uri="nitin" type="local">Nitin G</fr:link>
                   </fr:author>
                 </fr:authors>
                 <fr:date>
@@ -109,9 +118,9 @@
                   <fr:month>9</fr:month>
                   <fr:day>4</fr:day>
                 </fr:date>
-                <fr:uri>https://machanhoid.github.io/forest/0003/</fr:uri>
+                <fr:uri>https://machanhoid.github.io/0003/</fr:uri>
                 <fr:display-uri>0003</fr:display-uri>
-                <fr:route>/forest/0003/</fr:route>
+                <fr:route>/0003/</fr:route>
                 <fr:title text="Verifiable Elections That Scale for Free">Verifiable Elections That Scale for Free</fr:title>
               </fr:frontmatter>
               <fr:mainmatter />

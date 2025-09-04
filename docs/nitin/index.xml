@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-stylesheet type="text/xsl" href="/forest/default.xsl"?>
-<fr:tree xmlns:fr="http://www.forester-notes.org" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:xml="http://www.w3.org/XML/1998/namespace" root="false" base-url="/forest/">
+<?xml-stylesheet type="text/xsl" href="/default.xsl"?>
+<fr:tree xmlns:fr="http://www.forester-notes.org" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:xml="http://www.w3.org/XML/1998/namespace" root="false" base-url="/">
   <fr:frontmatter>
     <fr:authors />
-    <fr:uri>https://machanhoid.github.io/forest/nitin/</fr:uri>
+    <fr:uri>https://machanhoid.github.io/nitin/</fr:uri>
     <fr:display-uri>nitin</fr:display-uri>
-    <fr:route>/forest/nitin/</fr:route>
+    <fr:route>/nitin/</fr:route>
     <fr:title text="Nitin G">Nitin G</fr:title>
     <fr:taxon>person</fr:taxon>
   </fr:frontmatter>
