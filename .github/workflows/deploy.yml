@@ -21,33 +21,21 @@ jobs:
       - name: Checkout source
         uses: actions/checkout@v4
 
-      # Cache OPAM to avoid reinstalling Forester each run
-      - name: Cache opam
-        uses: actions/cache@v3
-        with:
-          path: ~/.opam
-          key: ${{ runner.os }}-opam-forester
-          restore-keys: ${{ runner.os }}-opam-
-
-      - name: Install OCaml & Forester
+      # Download the latest prebuilt Forester binary
+      - name: Download Forester binary
         run: |
-          sudo apt-get update -qq
-          sudo apt-get install -y opam
-          opam init -y --bare
-          opam switch create . ocaml-base-compiler.5.1.0 -y || opam switch import . || true
-          eval $(opam env)
-          opam install forester -y --deps-only || true
-          opam install forester -y
+          curl -L https://github.com/DefProc/forester/releases/latest/download/forester-linux -o forester
+          chmod +x forester
 
+      # Build the site
       - name: Build site
-        run: |
-          eval $(opam env)
-          forester build
+        run: ./forester build
 
-      - name: Upload artifact
+      # Upload the static site as an artifact
+      - name: Upload site artifact
         uses: actions/upload-pages-artifact@v3
         with:
-          path: output
+          path: public   # change to _site if your forest outputs there
 
   deploy:
     environment:
