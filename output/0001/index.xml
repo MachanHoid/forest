@@ -84,6 +84,7 @@
       </fr:frontmatter>
       <fr:mainmatter />
     </fr:tree>
+    <html:p>Lets hope this works</html:p>
   </fr:mainmatter>
   <fr:backmatter>
     <fr:tree show-metadata="false" hidden-when-empty="true">
@@ -196,6 +197,7 @@
                   </fr:frontmatter>
                   <fr:mainmatter />
                 </fr:tree>
+                <html:p>Lets hope this works</html:p>
               </fr:mainmatter>
             </fr:tree>
           </fr:mainmatter>
