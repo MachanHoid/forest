@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-stylesheet type="text/xsl" href="/default.xsl"?>
-<fr:tree xmlns:fr="http://www.forester-notes.org" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:xml="http://www.w3.org/XML/1998/namespace" root="false" base-url="/">
+<?xml-stylesheet type="text/xsl" href="/forestdefault.xsl"?>
+<fr:tree xmlns:fr="http://www.forester-notes.org" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:xml="http://www.w3.org/XML/1998/namespace" root="false" base-url="/forest">
   <fr:frontmatter>
     <fr:authors>
       <fr:author>
-        <fr:link href="/nitin/" title="Nitin G" uri="https://machanhoid.github.io/nitin/" display-uri="nitin" type="local">Nitin G</fr:link>
+        <fr:link href="/nitin/" title="Nitin G" uri="https://machanhoid.github.io/nitin/" display-uri="https://machanhoid.github.io/nitin" type="local">Nitin G</fr:link>
       </fr:author>
     </fr:authors>
     <fr:date>
@@ -13,7 +13,7 @@
       <fr:day>4</fr:day>
     </fr:date>
     <fr:uri>https://machanhoid.github.io/0001/</fr:uri>
-    <fr:display-uri>0001</fr:display-uri>
+    <fr:display-uri>https://machanhoid.github.io/0001</fr:display-uri>
     <fr:route>/0001/</fr:route>
     <fr:title text="Verifiable Elections">Verifiable Elections</fr:title>
   </fr:frontmatter>
@@ -22,7 +22,7 @@
       <fr:frontmatter>
         <fr:authors>
           <fr:author>
-            <fr:link href="/nitin/" title="Nitin G" uri="https://machanhoid.github.io/nitin/" display-uri="nitin" type="local">Nitin G</fr:link>
+            <fr:link href="/nitin/" title="Nitin G" uri="https://machanhoid.github.io/nitin/" display-uri="https://machanhoid.github.io/nitin" type="local">Nitin G</fr:link>
           </fr:author>
         </fr:authors>
         <fr:date>
@@ -31,7 +31,7 @@
           <fr:day>4</fr:day>
         </fr:date>
         <fr:uri>https://machanhoid.github.io/0002/</fr:uri>
-        <fr:display-uri>0002</fr:display-uri>
+        <fr:display-uri>https://machanhoid.github.io/0002</fr:display-uri>
         <fr:route>/0002/</fr:route>
         <fr:title text="Resources">Resources</fr:title>
       </fr:frontmatter>
@@ -50,7 +50,7 @@
       <fr:frontmatter>
         <fr:authors>
           <fr:author>
-            <fr:link href="/nitin/" title="Nitin G" uri="https://machanhoid.github.io/nitin/" display-uri="nitin" type="local">Nitin G</fr:link>
+            <fr:link href="/nitin/" title="Nitin G" uri="https://machanhoid.github.io/nitin/" display-uri="https://machanhoid.github.io/nitin" type="local">Nitin G</fr:link>
           </fr:author>
         </fr:authors>
         <fr:date>
@@ -59,7 +59,7 @@
           <fr:day>4</fr:day>
         </fr:date>
         <fr:uri>https://machanhoid.github.io/0004/</fr:uri>
-        <fr:display-uri>0004</fr:display-uri>
+        <fr:display-uri>https://machanhoid.github.io/0004</fr:display-uri>
         <fr:route>/0004/</fr:route>
         <fr:title text="The Setting">The Setting</fr:title>
       </fr:frontmatter>
@@ -69,7 +69,7 @@
       <fr:frontmatter>
         <fr:authors>
           <fr:author>
-            <fr:link href="/nitin/" title="Nitin G" uri="https://machanhoid.github.io/nitin/" display-uri="nitin" type="local">Nitin G</fr:link>
+            <fr:link href="/nitin/" title="Nitin G" uri="https://machanhoid.github.io/nitin/" display-uri="https://machanhoid.github.io/nitin" type="local">Nitin G</fr:link>
           </fr:author>
         </fr:authors>
         <fr:date>
@@ -78,7 +78,7 @@
           <fr:day>4</fr:day>
         </fr:date>
         <fr:uri>https://machanhoid.github.io/0003/</fr:uri>
-        <fr:display-uri>0003</fr:display-uri>
+        <fr:display-uri>https://machanhoid.github.io/0003</fr:display-uri>
         <fr:route>/0003/</fr:route>
         <fr:title text="Verifiable Elections That Scale for Free">Verifiable Elections That Scale for Free</fr:title>
       </fr:frontmatter>
@@ -104,11 +104,11 @@
           <fr:frontmatter>
             <fr:authors>
               <fr:contributor>
-                <fr:link href="/nitin/" title="Nitin G" uri="https://machanhoid.github.io/nitin/" display-uri="nitin" type="local">Nitin G</fr:link>
+                <fr:link href="/nitin/" title="Nitin G" uri="https://machanhoid.github.io/nitin/" display-uri="https://machanhoid.github.io/nitin" type="local">Nitin G</fr:link>
               </fr:contributor>
             </fr:authors>
             <fr:uri>https://machanhoid.github.io/index/</fr:uri>
-            <fr:display-uri>index</fr:display-uri>
+            <fr:display-uri>https://machanhoid.github.io/index</fr:display-uri>
             <fr:route>/index/</fr:route>
             <fr:title text="About Me">About Me</fr:title>
           </fr:frontmatter>
@@ -117,7 +117,7 @@
               <fr:frontmatter>
                 <fr:authors>
                   <fr:author>
-                    <fr:link href="/nitin/" title="Nitin G" uri="https://machanhoid.github.io/nitin/" display-uri="nitin" type="local">Nitin G</fr:link>
+                    <fr:link href="/nitin/" title="Nitin G" uri="https://machanhoid.github.io/nitin/" display-uri="https://machanhoid.github.io/nitin" type="local">Nitin G</fr:link>
                   </fr:author>
                 </fr:authors>
                 <fr:date>
@@ -126,7 +126,7 @@
                   <fr:day>4</fr:day>
                 </fr:date>
                 <fr:uri>https://machanhoid.github.io/0001/</fr:uri>
-                <fr:display-uri>0001</fr:display-uri>
+                <fr:display-uri>https://machanhoid.github.io/0001</fr:display-uri>
                 <fr:route>/0001/</fr:route>
                 <fr:title text="Verifiable Elections">Verifiable Elections</fr:title>
               </fr:frontmatter>
@@ -135,7 +135,7 @@
                   <fr:frontmatter>
                     <fr:authors>
                       <fr:author>
-                        <fr:link href="/nitin/" title="Nitin G" uri="https://machanhoid.github.io/nitin/" display-uri="nitin" type="local">Nitin G</fr:link>
+                        <fr:link href="/nitin/" title="Nitin G" uri="https://machanhoid.github.io/nitin/" display-uri="https://machanhoid.github.io/nitin" type="local">Nitin G</fr:link>
                       </fr:author>
                     </fr:authors>
                     <fr:date>
@@ -144,7 +144,7 @@
                       <fr:day>4</fr:day>
                     </fr:date>
                     <fr:uri>https://machanhoid.github.io/0002/</fr:uri>
-                    <fr:display-uri>0002</fr:display-uri>
+                    <fr:display-uri>https://machanhoid.github.io/0002</fr:display-uri>
                     <fr:route>/0002/</fr:route>
                     <fr:title text="Resources">Resources</fr:title>
                   </fr:frontmatter>
@@ -163,7 +163,7 @@
                   <fr:frontmatter>
                     <fr:authors>
                       <fr:author>
-                        <fr:link href="/nitin/" title="Nitin G" uri="https://machanhoid.github.io/nitin/" display-uri="nitin" type="local">Nitin G</fr:link>
+                        <fr:link href="/nitin/" title="Nitin G" uri="https://machanhoid.github.io/nitin/" display-uri="https://machanhoid.github.io/nitin" type="local">Nitin G</fr:link>
                       </fr:author>
                     </fr:authors>
                     <fr:date>
@@ -172,7 +172,7 @@
                       <fr:day>4</fr:day>
                     </fr:date>
                     <fr:uri>https://machanhoid.github.io/0004/</fr:uri>
-                    <fr:display-uri>0004</fr:display-uri>
+                    <fr:display-uri>https://machanhoid.github.io/0004</fr:display-uri>
                     <fr:route>/0004/</fr:route>
                     <fr:title text="The Setting">The Setting</fr:title>
                   </fr:frontmatter>
@@ -182,7 +182,7 @@
                   <fr:frontmatter>
                     <fr:authors>
                       <fr:author>
-                        <fr:link href="/nitin/" title="Nitin G" uri="https://machanhoid.github.io/nitin/" display-uri="nitin" type="local">Nitin G</fr:link>
+                        <fr:link href="/nitin/" title="Nitin G" uri="https://machanhoid.github.io/nitin/" display-uri="https://machanhoid.github.io/nitin" type="local">Nitin G</fr:link>
                       </fr:author>
                     </fr:authors>
                     <fr:date>
@@ -191,7 +191,7 @@
                       <fr:day>4</fr:day>
                     </fr:date>
                     <fr:uri>https://machanhoid.github.io/0003/</fr:uri>
-                    <fr:display-uri>0003</fr:display-uri>
+                    <fr:display-uri>https://machanhoid.github.io/0003</fr:display-uri>
                     <fr:route>/0003/</fr:route>
                     <fr:title text="Verifiable Elections That Scale for Free">Verifiable Elections That Scale for Free</fr:title>
                   </fr:frontmatter>
