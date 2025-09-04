@@ -1,0 +1,15 @@
+\date{2025-09-04T20:06:06Z}
+\title{Resources}
+\author{nitin}
+
+\p{These are a compilation of papers and other resources:}
+\ol{
+    \li{[TallyGuard](https://kcsrk.info/papers/tallyguard_jan_25.pdf) : Paper written by KC and Athish}
+    \li{[E2E Verifiablity](https://arxiv.org/pdf/1504.03778) - To understand the setting, written for general audience}
+    \li{[Voting and Verifiablity](https://people.csail.mit.edu/rivest/pubs/Kan10.pdf) - Article for general audience}
+    \li{Survey on Randomness Homomorphic Commitment Schemes by Simon Wülker}
+    \li{[A Study of Mechanisms for End-to-End Verifiable Online Voting](https://www.bsi.bund.de/SharedDocs/Downloads/EN/BSI/Publications/Studies/Cryptography/End-to-End-Verifiable_Online-Voting.pdf?__blob=publicationFile&v=4#page=90.15)
+    - A not so technical survey}
+    \li{[Verifiable Elections That Scale for Free](https://www.iacr.org/archive/pkc2013/77780476/77780476.pdf)}
+}
+
