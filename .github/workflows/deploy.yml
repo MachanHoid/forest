@@ -27,15 +27,15 @@ jobs:
           curl -L https://github.com/DefProc/forester/releases/latest/download/forester-linux -o forester
           chmod +x forester
 
-      # Build the site
+      # Build the site using your forest.toml
       - name: Build site
-        run: ./forester build
+        run: ./forester build forest.toml
 
       # Upload the static site as an artifact
       - name: Upload site artifact
         uses: actions/upload-pages-artifact@v3
         with:
-          path: public   # change to _site if your forest outputs there
+          path: output   # <-- your build folder
 
   deploy:
     environment:
