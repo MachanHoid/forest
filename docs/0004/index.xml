@@ -19,8 +19,9 @@
   </fr:frontmatter>
   <fr:mainmatter>
     <html:p>
-Define End-to-End Verifiability
-Define system independent voting
+End to End verifiable Systems have properties that enable individual voters to check crucial ingredients
+of election results – without requiring voters to trust election software, hardware, election
+officials, procedures, or even observers.
 </html:p>
     <html:p>
 Key properties of E2E-V are:
@@ -37,6 +38,10 @@ We note that there are three kinds of parties involved in this scenario:
 <html:ol><html:li>Voter: An individual that makes their voting choice and potentially gets a <html:em>receipt</html:em> for it</html:li>
     <html:li>Election Authority: The authority that arranges the election. They may have access to some private information</html:li>
     <html:li>Public Verifier: Any person in public that has no access to any private information but wants to verify the election result</html:li></html:ol></html:p>
+    <html:p><html:strong>Software Independence</html:strong>: This is a property that states that the verification of the procedure does not depend on what software is used to conduct the 
+    election. So even if we do not trust the authorities and the infrastructure, this property ensures that any outcome altering error/modification is always
+    detectable. This is a property that we would like to have in our system.
+</html:p>
     <html:p>
     What makes elections a non-trivial problem to solve is that we are trying to protect against opposite forces. One where we try to protect against
     the authorities trying to spoof the system, by giving correctness guarantees. And the other where we try to protect from voters themselves not revealing
@@ -49,9 +54,14 @@ We note that there are three kinds of parties involved in this scenario:
         Or would it be possible for an individual to check if all votes are recorded correctly? 
         Or is there a way to make it so that atleast some authorities (like press) can check wether all votes 
         are recorded properly (maybe by sharing some secret information with these authorities).</html:li>
-        <html:li>Ideally, all steps whould be verifiable by the public (without any secret information)</html:li>
+        <html:li>What fraction of people need to perform <html:em>verification</html:em> to provide evidence for a <html:em>fair election</html:em></html:li>
+        <html:li>Ideally, all steps should be verifiable by the public (without any secret information)</html:li>
         <html:li>Is it fine if instead of knowing how one voter voted, we just get the cumulated result of one street? Is this okay in our model or
-        do we want to protect against this too?</html:li></html:ol></html:p>
+        do we want to protect against this too?</html:li>
+        <html:li>Dispute resolution: How to proceed once you encounter a potential error in the process? How do we protect against defamation attacks that try to undermine
+        the trust on the outcome by forging <html:em>receipts</html:em> that would result in errors? And on the flip side, we also need to protect voters from a fraudulent voting system 
+        that might generate fraudulent receipts that a voter can then not use to dispute. So there needs to be a way for the voter to verify the validity of a receipt 
+        while voting, and also to prove this validity at a later stage.</html:li></html:ol></html:p>
   </fr:mainmatter>
   <fr:backmatter>
     <fr:tree show-metadata="false" hidden-when-empty="true">
@@ -132,8 +142,9 @@ We note that there are three kinds of parties involved in this scenario:
               </fr:frontmatter>
               <fr:mainmatter>
                 <html:p>
-Define End-to-End Verifiability
-Define system independent voting
+End to End verifiable Systems have properties that enable individual voters to check crucial ingredients
+of election results – without requiring voters to trust election software, hardware, election
+officials, procedures, or even observers.
 </html:p>
                 <html:p>
 Key properties of E2E-V are:
@@ -150,6 +161,10 @@ We note that there are three kinds of parties involved in this scenario:
 <html:ol><html:li>Voter: An individual that makes their voting choice and potentially gets a <html:em>receipt</html:em> for it</html:li>
     <html:li>Election Authority: The authority that arranges the election. They may have access to some private information</html:li>
     <html:li>Public Verifier: Any person in public that has no access to any private information but wants to verify the election result</html:li></html:ol></html:p>
+                <html:p><html:strong>Software Independence</html:strong>: This is a property that states that the verification of the procedure does not depend on what software is used to conduct the 
+    election. So even if we do not trust the authorities and the infrastructure, this property ensures that any outcome altering error/modification is always
+    detectable. This is a property that we would like to have in our system.
+</html:p>
                 <html:p>
     What makes elections a non-trivial problem to solve is that we are trying to protect against opposite forces. One where we try to protect against
     the authorities trying to spoof the system, by giving correctness guarantees. And the other where we try to protect from voters themselves not revealing
@@ -162,9 +177,14 @@ We note that there are three kinds of parties involved in this scenario:
         Or would it be possible for an individual to check if all votes are recorded correctly? 
         Or is there a way to make it so that atleast some authorities (like press) can check wether all votes 
         are recorded properly (maybe by sharing some secret information with these authorities).</html:li>
-        <html:li>Ideally, all steps whould be verifiable by the public (without any secret information)</html:li>
+        <html:li>What fraction of people need to perform <html:em>verification</html:em> to provide evidence for a <html:em>fair election</html:em></html:li>
+        <html:li>Ideally, all steps should be verifiable by the public (without any secret information)</html:li>
         <html:li>Is it fine if instead of knowing how one voter voted, we just get the cumulated result of one street? Is this okay in our model or
-        do we want to protect against this too?</html:li></html:ol></html:p>
+        do we want to protect against this too?</html:li>
+        <html:li>Dispute resolution: How to proceed once you encounter a potential error in the process? How do we protect against defamation attacks that try to undermine
+        the trust on the outcome by forging <html:em>receipts</html:em> that would result in errors? And on the flip side, we also need to protect voters from a fraudulent voting system 
+        that might generate fraudulent receipts that a voter can then not use to dispute. So there needs to be a way for the voter to verify the validity of a receipt 
+        while voting, and also to prove this validity at a later stage.</html:li></html:ol></html:p>
               </fr:mainmatter>
             </fr:tree>
             <fr:tree show-metadata="false">
@@ -229,6 +249,7 @@ We note that there are three kinds of parties involved in this scenario:
                 </fr:tree>
               </fr:mainmatter>
             </fr:tree>
+            <html:p>Just trying to make a change</html:p>
           </fr:mainmatter>
         </fr:tree>
       </fr:mainmatter>
