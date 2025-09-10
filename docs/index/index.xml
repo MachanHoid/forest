@@ -1,0 +1,218 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="/forest/default.xsl"?>
+<fr:tree xmlns:fr="http://www.forester-notes.org" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:xml="http://www.w3.org/XML/1998/namespace" root="true" base-url="/forest/">
+  <fr:frontmatter>
+    <fr:authors>
+      <fr:contributor>
+        <fr:link href="/forest/nitin/" title="Nitin G" uri="https://machanhoid.github.io/forest/nitin/" display-uri="nitin" type="local">Nitin G</fr:link>
+      </fr:contributor>
+    </fr:authors>
+    <fr:uri>https://machanhoid.github.io/forest/index/</fr:uri>
+    <fr:display-uri>index</fr:display-uri>
+    <fr:route>/forest/index/</fr:route>
+    <fr:title text="About Me">About Me</fr:title>
+  </fr:frontmatter>
+  <fr:mainmatter>
+    <fr:tree show-metadata="false">
+      <fr:frontmatter>
+        <fr:authors>
+          <fr:author>
+            <fr:link href="/forest/nitin/" title="Nitin G" uri="https://machanhoid.github.io/forest/nitin/" display-uri="nitin" type="local">Nitin G</fr:link>
+          </fr:author>
+        </fr:authors>
+        <fr:date>
+          <fr:year>2025</fr:year>
+          <fr:month>9</fr:month>
+          <fr:day>4</fr:day>
+        </fr:date>
+        <fr:uri>https://machanhoid.github.io/forest/0001/</fr:uri>
+        <fr:display-uri>0001</fr:display-uri>
+        <fr:route>/forest/0001/</fr:route>
+        <fr:title text="Verifiable Elections">Verifiable Elections</fr:title>
+      </fr:frontmatter>
+      <fr:mainmatter>
+        <fr:tree show-metadata="false">
+          <fr:frontmatter>
+            <fr:authors>
+              <fr:author>
+                <fr:link href="/forest/nitin/" title="Nitin G" uri="https://machanhoid.github.io/forest/nitin/" display-uri="nitin" type="local">Nitin G</fr:link>
+              </fr:author>
+            </fr:authors>
+            <fr:date>
+              <fr:year>2025</fr:year>
+              <fr:month>9</fr:month>
+              <fr:day>4</fr:day>
+            </fr:date>
+            <fr:uri>https://machanhoid.github.io/forest/0002/</fr:uri>
+            <fr:display-uri>0002</fr:display-uri>
+            <fr:route>/forest/0002/</fr:route>
+            <fr:title text="Resources">Resources</fr:title>
+          </fr:frontmatter>
+          <fr:mainmatter>
+            <html:p>These are a compilation of papers and other resources:</html:p>
+            <html:ol><html:li><fr:link href="https://kcsrk.info/papers/tallyguard_jan_25.pdf" type="external">TallyGuard</fr:link> : Paper written by KC and Athish</html:li>
+    <html:li><fr:link href="https://arxiv.org/pdf/1504.03778" type="external">E2E Verifiablity</fr:link> - To understand the setting, written for general audience</html:li>
+    <html:li><fr:link href="https://people.csail.mit.edu/rivest/pubs/Kan10.pdf" type="external">Voting and Verifiablity</fr:link> - Article for general audience</html:li>
+    <html:li>Survey on Randomness Homomorphic Commitment Schemes by Simon Wülker</html:li>
+    <html:li><fr:link href="https://www.bsi.bund.de/SharedDocs/Downloads/EN/BSI/Publications/Studies/Cryptography/End-to-End-Verifiable_Online-Voting.pdf?__blob=publicationFile&amp;v=4page=90.15" type="external">A Study of Mechanisms for End-to-End Verifiable Online Voting</fr:link>
+    - A not so technical survey</html:li>
+    <html:li><fr:link href="https://www.iacr.org/archive/pkc2013/77780476/77780476.pdf" type="external">Verifiable Elections That Scale for Free</fr:link></html:li></html:ol>
+          </fr:mainmatter>
+        </fr:tree>
+        <fr:tree show-metadata="false">
+          <fr:frontmatter>
+            <fr:authors>
+              <fr:author>
+                <fr:link href="/forest/nitin/" title="Nitin G" uri="https://machanhoid.github.io/forest/nitin/" display-uri="nitin" type="local">Nitin G</fr:link>
+              </fr:author>
+            </fr:authors>
+            <fr:date>
+              <fr:year>2025</fr:year>
+              <fr:month>9</fr:month>
+              <fr:day>4</fr:day>
+            </fr:date>
+            <fr:uri>https://machanhoid.github.io/forest/0004/</fr:uri>
+            <fr:display-uri>0004</fr:display-uri>
+            <fr:route>/forest/0004/</fr:route>
+            <fr:title text="The Setting">The Setting</fr:title>
+          </fr:frontmatter>
+          <fr:mainmatter>
+            <html:p>
+Define End-to-End Verifiability
+Define system independent voting
+</html:p>
+            <html:p>
+Key properties of E2E-V are:
+<html:ol><html:li><html:strong>Cast-as-intended</html:strong>: Ability to convince any individual that their vote has been recorded correctly.</html:li>
+    <html:li><html:strong>Talied-as-cast</html:strong>: Any member of the public must be able to verify that all cast votes are tallied correctly to produce an accurate result.</html:li></html:ol>
+These ensures the correctness of the election process. This is generally implemented in 3 steps:
+<html:ol><html:li><html:strong>Cast-as-intended</html:strong>: Convincing at the time of casting, that the correct vote has been cast</html:li>
+    <html:li><html:strong>Recorded-as-cast</html:strong>: The correct vote that was cast is also recorded (say, in the public bulletin)</html:li>
+    <html:li><html:strong>Tallied-as-recorded</html:strong>: Should be verifiable by public that all the recorded votes are tallied properly to give the accurate election result.</html:li></html:ol>
+We also need some privacy guarantees:
+<html:ol><html:li><html:strong>Coersion-resistance</html:strong>: voters must not be able to prove to anyone how they voted.</html:li>
+    <html:li><html:strong>Voter-privacy</html:strong>: No authority must be able to find out how a particular voter voted</html:li></html:ol>
+We note that there are three kinds of parties involved in this scenario:
+<html:ol><html:li>Voter: An individual that makes their voting choice and potentially gets a <html:em>receipt</html:em> for it</html:li>
+    <html:li>Election Authority: The authority that arranges the election. They may have access to some private information</html:li>
+    <html:li>Public Verifier: Any person in public that has no access to any private information but wants to verify the election result</html:li></html:ol></html:p>
+            <html:p>
+    What makes elections a non-trivial problem to solve is that we are trying to protect against opposite forces. One where we try to protect against
+    the authorities trying to spoof the system, by giving correctness guarantees. And the other where we try to protect from voters themselves not revealing
+    their vote to anyone so as to prevent selling votes. This produces a unique scenario where there is no trust on the authorities as well as the voters, but we 
+    still assume that enough people want to verify that the election has proceeded in a fair manner.
+</html:p>
+            <html:p>
+    Here are some questions that we need to think about when we design an election system:
+    <html:ol><html:li> Do we need to trust that all voters are checking that their votes are correctly recorded? 
+        Or would it be possible for an individual to check if all votes are recorded correctly? 
+        Or is there a way to make it so that atleast some authorities (like press) can check wether all votes 
+        are recorded properly (maybe by sharing some secret information with these authorities).</html:li>
+        <html:li>Ideally, all steps whould be verifiable by the public (without any secret information)</html:li>
+        <html:li>Is it fine if instead of knowing how one voter voted, we just get the cumulated result of one street? Is this okay in our model or
+        do we want to protect against this too?</html:li></html:ol></html:p>
+          </fr:mainmatter>
+        </fr:tree>
+        <fr:tree show-metadata="false">
+          <fr:frontmatter>
+            <fr:authors>
+              <fr:author>
+                <fr:link href="/forest/nitin/" title="Nitin G" uri="https://machanhoid.github.io/forest/nitin/" display-uri="nitin" type="local">Nitin G</fr:link>
+              </fr:author>
+            </fr:authors>
+            <fr:date>
+              <fr:year>2025</fr:year>
+              <fr:month>9</fr:month>
+              <fr:day>7</fr:day>
+            </fr:date>
+            <fr:uri>https://machanhoid.github.io/forest/0006/</fr:uri>
+            <fr:display-uri>0006</fr:display-uri>
+            <fr:route>/forest/0006/</fr:route>
+            <fr:title text="TallyGuard">TallyGuard</fr:title>
+          </fr:frontmatter>
+          <fr:mainmatter />
+        </fr:tree>
+        <fr:tree show-metadata="false">
+          <fr:frontmatter>
+            <fr:authors>
+              <fr:author>
+                <fr:link href="/forest/nitin/" title="Nitin G" uri="https://machanhoid.github.io/forest/nitin/" display-uri="nitin" type="local">Nitin G</fr:link>
+              </fr:author>
+            </fr:authors>
+            <fr:date>
+              <fr:year>2025</fr:year>
+              <fr:month>9</fr:month>
+              <fr:day>4</fr:day>
+            </fr:date>
+            <fr:uri>https://machanhoid.github.io/forest/0003/</fr:uri>
+            <fr:display-uri>0003</fr:display-uri>
+            <fr:route>/forest/0003/</fr:route>
+            <fr:title text="Verifiable Elections That Scale for Free">Verifiable Elections That Scale for Free</fr:title>
+          </fr:frontmatter>
+          <fr:mainmatter>
+            <fr:tree show-metadata="false">
+              <fr:frontmatter>
+                <fr:authors>
+                  <fr:author>
+                    <fr:link href="/forest/nitin/" title="Nitin G" uri="https://machanhoid.github.io/forest/nitin/" display-uri="nitin" type="local">Nitin G</fr:link>
+                  </fr:author>
+                </fr:authors>
+                <fr:date>
+                  <fr:year>2025</fr:year>
+                  <fr:month>9</fr:month>
+                  <fr:day>6</fr:day>
+                </fr:date>
+                <fr:uri>https://machanhoid.github.io/forest/0005/</fr:uri>
+                <fr:display-uri>0005</fr:display-uri>
+                <fr:route>/forest/0005/</fr:route>
+                <fr:title text="in verifiable elections that scale for free">in verifiable elections that scale for free</fr:title>
+                <fr:taxon>doubts</fr:taxon>
+              </fr:frontmatter>
+              <fr:mainmatter>
+                <html:ol><html:li> Why do we need threshold decryption and not just one decrypting server if there is a ZKP to prove it anyways?</html:li>
+    <html:li> Similarly with the shuffling?</html:li></html:ol>
+              </fr:mainmatter>
+            </fr:tree>
+          </fr:mainmatter>
+        </fr:tree>
+      </fr:mainmatter>
+    </fr:tree>
+  </fr:mainmatter>
+  <fr:backmatter>
+    <fr:tree show-metadata="false" hidden-when-empty="true">
+      <fr:frontmatter>
+        <fr:authors />
+        <fr:title text="References">References</fr:title>
+      </fr:frontmatter>
+      <fr:mainmatter />
+    </fr:tree>
+    <fr:tree show-metadata="false" hidden-when-empty="true">
+      <fr:frontmatter>
+        <fr:authors />
+        <fr:title text="Context">Context</fr:title>
+      </fr:frontmatter>
+      <fr:mainmatter />
+    </fr:tree>
+    <fr:tree show-metadata="false" hidden-when-empty="true">
+      <fr:frontmatter>
+        <fr:authors />
+        <fr:title text="Backlinks">Backlinks</fr:title>
+      </fr:frontmatter>
+      <fr:mainmatter />
+    </fr:tree>
+    <fr:tree show-metadata="false" hidden-when-empty="true">
+      <fr:frontmatter>
+        <fr:authors />
+        <fr:title text="Related">Related</fr:title>
+      </fr:frontmatter>
+      <fr:mainmatter />
+    </fr:tree>
+    <fr:tree show-metadata="false" hidden-when-empty="true">
+      <fr:frontmatter>
+        <fr:authors />
+        <fr:title text="Contributions">Contributions</fr:title>
+      </fr:frontmatter>
+      <fr:mainmatter />
+    </fr:tree>
+  </fr:backmatter>
+</fr:tree>
