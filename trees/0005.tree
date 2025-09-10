@@ -1,0 +1,9 @@
+\date{2025-09-06T16:42:56Z}
+\taxon{doubts}
+\title{in verifiable elections that scale for free}
+\author{nitin}
+
+\ol{
+    \li{ Why do we need threshold decryption and not just one decrypting server if there is a ZKP to prove it anyways?}
+    \li{ Similarly with the shuffling?}
+}
