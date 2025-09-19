@@ -56,6 +56,8 @@
     <html:li>Survey on Randomness Homomorphic Commitment Schemes by Simon Wülker</html:li>
     <html:li><fr:link href="https://www.bsi.bund.de/SharedDocs/Downloads/EN/BSI/Publications/Studies/Cryptography/End-to-End-Verifiable_Online-Voting.pdf?__blob=publicationFile&amp;v=4page=90.15" type="external">A Study of Mechanisms for End-to-End Verifiable Online Voting</fr:link>
     - A not so technical survey</html:li>
+    <html:li><fr:link href="https://web.cs.ucdavis.edu/~franklin/ecs228/2013/neff_2001.pdf" type="external">A Verifiable Secret Shuffle and its Application to E-Voting</fr:link></html:li>
+    <html:li><fr:link href="https://eprint.iacr.org/2012/012.pdf" type="external">Malleable Proof Systems and Applications</fr:link></html:li>
     <html:li><fr:link href="https://www.iacr.org/archive/pkc2013/77780476/77780476.pdf" type="external">Verifiable Elections That Scale for Free</fr:link></html:li></html:ol>
           </fr:mainmatter>
         </fr:tree>
@@ -158,6 +160,47 @@ We note that there are three kinds of parties involved in this scenario:
         <html:li>Can we do better <html:em>Dispute resolution</html:em>, with the suggested method, the only way is to go through the paper trail to resolve disputes.</html:li></html:ol>
     An Open problem listed was that only tallied-as-recorded is software independent. All other processes still require us to trust the hardware and software.
 </html:p>
+          </fr:mainmatter>
+        </fr:tree>
+        <fr:tree show-metadata="false">
+          <fr:frontmatter>
+            <fr:authors>
+              <fr:author>
+                <fr:link href="/forest/nitin/" title="Nitin G" uri="https://machanhoid.github.io/forest/nitin/" display-uri="nitin" type="local">Nitin G</fr:link>
+              </fr:author>
+            </fr:authors>
+            <fr:date>
+              <fr:year>2025</fr:year>
+              <fr:month>9</fr:month>
+              <fr:day>15</fr:day>
+            </fr:date>
+            <fr:uri>https://machanhoid.github.io/forest/0008/</fr:uri>
+            <fr:display-uri>0008</fr:display-uri>
+            <fr:route>/forest/0008/</fr:route>
+            <fr:title text="A Verifiable Secret Shuffle and its Application to E-Voting">A Verifiable Secret Shuffle and its Application to E-Voting</fr:title>
+          </fr:frontmatter>
+          <fr:mainmatter>
+            <fr:tree show-metadata="false">
+              <fr:frontmatter>
+                <fr:authors>
+                  <fr:author>
+                    <fr:link href="/forest/nitin/" title="Nitin G" uri="https://machanhoid.github.io/forest/nitin/" display-uri="nitin" type="local">Nitin G</fr:link>
+                  </fr:author>
+                </fr:authors>
+                <fr:date>
+                  <fr:year>2025</fr:year>
+                  <fr:month>9</fr:month>
+                  <fr:day>15</fr:day>
+                </fr:date>
+                <fr:uri>https://machanhoid.github.io/forest/0009/</fr:uri>
+                <fr:display-uri>0009</fr:display-uri>
+                <fr:route>/forest/0009/</fr:route>
+                <fr:title text="Proofs for Iterated Logarithmic Multiplication">Proofs for Iterated Logarithmic Multiplication</fr:title>
+              </fr:frontmatter>
+              <fr:mainmatter>
+                <html:p>This is an higher-dimensional extenstion of the chaum-pederson proof of equality for discrete-logs</html:p>
+              </fr:mainmatter>
+            </fr:tree>
           </fr:mainmatter>
         </fr:tree>
         <fr:tree show-metadata="false">

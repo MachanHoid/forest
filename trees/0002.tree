@@ -10,6 +10,8 @@
     \li{Survey on Randomness Homomorphic Commitment Schemes by Simon Wülker}
     \li{[A Study of Mechanisms for End-to-End Verifiable Online Voting](https://www.bsi.bund.de/SharedDocs/Downloads/EN/BSI/Publications/Studies/Cryptography/End-to-End-Verifiable_Online-Voting.pdf?__blob=publicationFile&v=4#page=90.15)
     - A not so technical survey}
+    \li{[A Verifiable Secret Shuffle and its Application to E-Voting](https://web.cs.ucdavis.edu/~franklin/ecs228/2013/neff_2001.pdf)}
+    \li{[Malleable Proof Systems and Applications](https://eprint.iacr.org/2012/012.pdf)}
     \li{[Verifiable Elections That Scale for Free](https://www.iacr.org/archive/pkc2013/77780476/77780476.pdf)}
 }
 
