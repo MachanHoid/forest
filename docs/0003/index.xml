@@ -101,7 +101,8 @@
     - A not so technical survey</html:li>
     <html:li><fr:link href="https://web.cs.ucdavis.edu/~franklin/ecs228/2013/neff_2001.pdf" type="external">A Verifiable Secret Shuffle and its Application to E-Voting</fr:link></html:li>
     <html:li><fr:link href="https://eprint.iacr.org/2012/012.pdf" type="external">Malleable Proof Systems and Applications</fr:link></html:li>
-    <html:li><fr:link href="https://www.iacr.org/archive/pkc2013/77780476/77780476.pdf" type="external">Verifiable Elections That Scale for Free</fr:link></html:li></html:ol>
+    <html:li><fr:link href="https://www.iacr.org/archive/pkc2013/77780476/77780476.pdf" type="external">Verifiable Elections That Scale for Free</fr:link></html:li>
+    <html:li><fr:link href="https://ieeexplore.ieee.org/abstract/document/10646657" type="external">Can we cast a ballot as intended and be receipt free?</fr:link></html:li></html:ol>
               </fr:mainmatter>
             </fr:tree>
             <fr:tree show-metadata="false">

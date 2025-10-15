@@ -1,5 +1,9 @@
 \title{About Me}
 
-\p{I am a final year BTech student in the department of Electrical Engineering. I am interested in theoretical computer science.}
+\p{I am a final year BTech student in the department of Electrical Engineering. I am interested in theoretical computer science. I took a particular
+liking to cryptography. Especially topics in Interactive Proofs and Zero-Knowledge Proofs. I enjoy reading about complexity classes and its intersection with 
+cryptography.}
 
-[Verifiable Elections](0001)
+\p{Here are a list of courses that I enjoyed, with resources for each of them. And this is my blog.}
+
+\p{I am currently working on [Verifiable Elections](0001) in the context of Indian elections.}
