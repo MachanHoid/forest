@@ -4,15 +4,16 @@
 
 \p{These are a compilation of papers and other resources:}
 \ol{
-    \li{[TallyGuard](https://kcsrk.info/papers/tallyguard_jan_25.pdf) : Paper written by KC and Athish}
+    \li{[TallyGuard](https://kcsrk.info/papers/tallyguard_jan_25.pdf) : Paper written by KC and Athish - [Thought](0006)}
     \li{[E2E Verifiablity](https://arxiv.org/pdf/1504.03778) - To understand the setting, written for general audience}
     \li{[Voting and Verifiablity](https://people.csail.mit.edu/rivest/pubs/Kan10.pdf) - Article for general audience}
     \li{Survey on Randomness Homomorphic Commitment Schemes by Simon Wülker}
     \li{[A Study of Mechanisms for End-to-End Verifiable Online Voting](https://www.bsi.bund.de/SharedDocs/Downloads/EN/BSI/Publications/Studies/Cryptography/End-to-End-Verifiable_Online-Voting.pdf?__blob=publicationFile&v=4#page=90.15)
     - A not so technical survey}
-    \li{[A Verifiable Secret Shuffle and its Application to E-Voting](https://web.cs.ucdavis.edu/~franklin/ecs228/2013/neff_2001.pdf)}
+    \li{[A Verifiable Secret Shuffle and its Application to E-Voting](https://web.cs.ucdavis.edu/~franklin/ecs228/2013/neff_2001.pdf) - [Notes](0008)}
     \li{[Malleable Proof Systems and Applications](https://eprint.iacr.org/2012/012.pdf)}
-    \li{[Verifiable Elections That Scale for Free](https://www.iacr.org/archive/pkc2013/77780476/77780476.pdf)}
+    \li{[Verifiable Elections That Scale for Free](https://www.iacr.org/archive/pkc2013/77780476/77780476.pdf) - [Notes](0003)}
     \li{[Can we cast a ballot as intended and be receipt free?](https://ieeexplore.ieee.org/abstract/document/10646657)}
+    \li{[BeleniosRF](https://eprint.iacr.org/2015/629.pdf) - [Notes](000B)}
 }
 

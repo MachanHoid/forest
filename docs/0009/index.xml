@@ -50,6 +50,7 @@
             <fr:display-uri>0008</fr:display-uri>
             <fr:route>/forest/0008/</fr:route>
             <fr:title text="A Verifiable Secret Shuffle and its Application to E-Voting">A Verifiable Secret Shuffle and its Application to E-Voting</fr:title>
+            <fr:taxon>notes</fr:taxon>
           </fr:frontmatter>
           <fr:mainmatter>
             <fr:tree show-metadata="false">

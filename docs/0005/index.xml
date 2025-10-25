@@ -52,6 +52,7 @@
             <fr:display-uri>0003</fr:display-uri>
             <fr:route>/forest/0003/</fr:route>
             <fr:title text="Verifiable Elections That Scale for Free">Verifiable Elections That Scale for Free</fr:title>
+            <fr:taxon>notes</fr:taxon>
           </fr:frontmatter>
           <fr:mainmatter>
             <fr:tree show-metadata="false">

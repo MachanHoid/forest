@@ -80,16 +80,17 @@ cryptography.</html:p>
               </fr:frontmatter>
               <fr:mainmatter>
                 <html:p>These are a compilation of papers and other resources:</html:p>
-                <html:ol><html:li><fr:link href="https://kcsrk.info/papers/tallyguard_jan_25.pdf" type="external">TallyGuard</fr:link> : Paper written by KC and Athish</html:li>
+                <html:ol><html:li><fr:link href="https://kcsrk.info/papers/tallyguard_jan_25.pdf" type="external">TallyGuard</fr:link> : Paper written by KC and Athish - <fr:link href="/forest/0006/" title="TallyGuard" uri="https://machanhoid.github.io/forest/0006/" display-uri="0006" type="local">Thought</fr:link></html:li>
     <html:li><fr:link href="https://arxiv.org/pdf/1504.03778" type="external">E2E Verifiablity</fr:link> - To understand the setting, written for general audience</html:li>
     <html:li><fr:link href="https://people.csail.mit.edu/rivest/pubs/Kan10.pdf" type="external">Voting and Verifiablity</fr:link> - Article for general audience</html:li>
     <html:li>Survey on Randomness Homomorphic Commitment Schemes by Simon Wülker</html:li>
     <html:li><fr:link href="https://www.bsi.bund.de/SharedDocs/Downloads/EN/BSI/Publications/Studies/Cryptography/End-to-End-Verifiable_Online-Voting.pdf?__blob=publicationFile&amp;v=4page=90.15" type="external">A Study of Mechanisms for End-to-End Verifiable Online Voting</fr:link>
     - A not so technical survey</html:li>
-    <html:li><fr:link href="https://web.cs.ucdavis.edu/~franklin/ecs228/2013/neff_2001.pdf" type="external">A Verifiable Secret Shuffle and its Application to E-Voting</fr:link></html:li>
+    <html:li><fr:link href="https://web.cs.ucdavis.edu/~franklin/ecs228/2013/neff_2001.pdf" type="external">A Verifiable Secret Shuffle and its Application to E-Voting</fr:link> - <fr:link href="/forest/0008/" title="A Verifiable Secret Shuffle and its Application to E-Voting" uri="https://machanhoid.github.io/forest/0008/" display-uri="0008" type="local">Notes</fr:link></html:li>
     <html:li><fr:link href="https://eprint.iacr.org/2012/012.pdf" type="external">Malleable Proof Systems and Applications</fr:link></html:li>
-    <html:li><fr:link href="https://www.iacr.org/archive/pkc2013/77780476/77780476.pdf" type="external">Verifiable Elections That Scale for Free</fr:link></html:li>
-    <html:li><fr:link href="https://ieeexplore.ieee.org/abstract/document/10646657" type="external">Can we cast a ballot as intended and be receipt free?</fr:link></html:li></html:ol>
+    <html:li><fr:link href="https://www.iacr.org/archive/pkc2013/77780476/77780476.pdf" type="external">Verifiable Elections That Scale for Free</fr:link> - <fr:link href="/forest/0003/" title="Verifiable Elections That Scale for Free" uri="https://machanhoid.github.io/forest/0003/" display-uri="0003" type="local">Notes</fr:link></html:li>
+    <html:li><fr:link href="https://ieeexplore.ieee.org/abstract/document/10646657" type="external">Can we cast a ballot as intended and be receipt free?</fr:link></html:li>
+    <html:li><fr:link href="https://eprint.iacr.org/2015/629.pdf" type="external">BeleniosRF</fr:link> - <fr:link href="/forest/000B/" title="BeleniosRF: A Non-Interactive Receipt-Free Electronic Voting Scheme" uri="https://machanhoid.github.io/forest/000B/" display-uri="000B" type="local">Notes</fr:link></html:li></html:ol>
               </fr:mainmatter>
             </fr:tree>
             <fr:tree show-metadata="false">
@@ -154,127 +155,6 @@ We note that there are three kinds of parties involved in this scenario:
         the trust on the outcome by forging <html:em>receipts</html:em> that would result in errors? And on the flip side, we also need to protect voters from a fraudulent voting system 
         that might generate fraudulent receipts that a voter can then not use to dispute. So there needs to be a way for the voter to verify the validity of a receipt 
         while voting, and also to prove this validity at a later stage.</html:li></html:ol></html:p>
-              </fr:mainmatter>
-            </fr:tree>
-            <fr:tree show-metadata="false">
-              <fr:frontmatter>
-                <fr:authors>
-                  <fr:author>
-                    <fr:link href="/forest/nitin/" title="Nitin G" uri="https://machanhoid.github.io/forest/nitin/" display-uri="nitin" type="local">Nitin G</fr:link>
-                  </fr:author>
-                </fr:authors>
-                <fr:date>
-                  <fr:year>2025</fr:year>
-                  <fr:month>9</fr:month>
-                  <fr:day>7</fr:day>
-                </fr:date>
-                <fr:uri>https://machanhoid.github.io/forest/0006/</fr:uri>
-                <fr:display-uri>0006</fr:display-uri>
-                <fr:route>/forest/0006/</fr:route>
-                <fr:title text="TallyGuard">TallyGuard</fr:title>
-              </fr:frontmatter>
-              <fr:mainmatter>
-                <html:p>TallyGuard uses Paillier Encryption</html:p>
-                <html:p>
-    The scheme works by discarding the private key of the Paillier scheme and using it as a hash with additive homomorphic properties. 
-    It aggregates the cast votes in plaintext and publishes this aggregate that can be hashed and checked if it matches with the accumulated hash.
-</html:p>
-                <html:p><html:strong>Some Concerns</html:strong>: The encryption scheme is used as a hash scheme here (maybe this is not advisable?). In this method, the aggregation is still done with the plaintext only.
-    This can be a problem if we want to aggregate at a constituency level, then the plaintext votes will have to be transferred to another device where
-    it is tallied. This might lead to exposing of votes. This would be a problem for the voter privacy notions. 
-</html:p>
-                <html:p>
-    Doubts:
-    <html:ol><html:li>What if <fr:tex display="inline"><![CDATA[k_{priv}]]></fr:tex> is not discarded. Does this beat the security notion of election authorities not being able to recover a result.
-        But at the same point, we can argue that if the machine decides to store plaintext vote information, then nothing can be done anyways. But
-        still, this is a single point of failure.</html:li>
-        <html:li>Can we do better <html:em>Dispute resolution</html:em>, with the suggested method, the only way is to go through the paper trail to resolve disputes.</html:li></html:ol>
-    An Open problem listed was that only tallied-as-recorded is software independent. All other processes still require us to trust the hardware and software.
-</html:p>
-              </fr:mainmatter>
-            </fr:tree>
-            <fr:tree show-metadata="false">
-              <fr:frontmatter>
-                <fr:authors>
-                  <fr:author>
-                    <fr:link href="/forest/nitin/" title="Nitin G" uri="https://machanhoid.github.io/forest/nitin/" display-uri="nitin" type="local">Nitin G</fr:link>
-                  </fr:author>
-                </fr:authors>
-                <fr:date>
-                  <fr:year>2025</fr:year>
-                  <fr:month>9</fr:month>
-                  <fr:day>15</fr:day>
-                </fr:date>
-                <fr:uri>https://machanhoid.github.io/forest/0008/</fr:uri>
-                <fr:display-uri>0008</fr:display-uri>
-                <fr:route>/forest/0008/</fr:route>
-                <fr:title text="A Verifiable Secret Shuffle and its Application to E-Voting">A Verifiable Secret Shuffle and its Application to E-Voting</fr:title>
-              </fr:frontmatter>
-              <fr:mainmatter>
-                <fr:tree show-metadata="false">
-                  <fr:frontmatter>
-                    <fr:authors>
-                      <fr:author>
-                        <fr:link href="/forest/nitin/" title="Nitin G" uri="https://machanhoid.github.io/forest/nitin/" display-uri="nitin" type="local">Nitin G</fr:link>
-                      </fr:author>
-                    </fr:authors>
-                    <fr:date>
-                      <fr:year>2025</fr:year>
-                      <fr:month>9</fr:month>
-                      <fr:day>15</fr:day>
-                    </fr:date>
-                    <fr:uri>https://machanhoid.github.io/forest/0009/</fr:uri>
-                    <fr:display-uri>0009</fr:display-uri>
-                    <fr:route>/forest/0009/</fr:route>
-                    <fr:title text="Proofs for Iterated Logarithmic Multiplication">Proofs for Iterated Logarithmic Multiplication</fr:title>
-                  </fr:frontmatter>
-                  <fr:mainmatter>
-                    <html:p>This is an higher-dimensional extenstion of the chaum-pederson proof of equality for discrete-logs</html:p>
-                  </fr:mainmatter>
-                </fr:tree>
-              </fr:mainmatter>
-            </fr:tree>
-            <fr:tree show-metadata="false">
-              <fr:frontmatter>
-                <fr:authors>
-                  <fr:author>
-                    <fr:link href="/forest/nitin/" title="Nitin G" uri="https://machanhoid.github.io/forest/nitin/" display-uri="nitin" type="local">Nitin G</fr:link>
-                  </fr:author>
-                </fr:authors>
-                <fr:date>
-                  <fr:year>2025</fr:year>
-                  <fr:month>9</fr:month>
-                  <fr:day>4</fr:day>
-                </fr:date>
-                <fr:uri>https://machanhoid.github.io/forest/0003/</fr:uri>
-                <fr:display-uri>0003</fr:display-uri>
-                <fr:route>/forest/0003/</fr:route>
-                <fr:title text="Verifiable Elections That Scale for Free">Verifiable Elections That Scale for Free</fr:title>
-              </fr:frontmatter>
-              <fr:mainmatter>
-                <fr:tree show-metadata="false">
-                  <fr:frontmatter>
-                    <fr:authors>
-                      <fr:author>
-                        <fr:link href="/forest/nitin/" title="Nitin G" uri="https://machanhoid.github.io/forest/nitin/" display-uri="nitin" type="local">Nitin G</fr:link>
-                      </fr:author>
-                    </fr:authors>
-                    <fr:date>
-                      <fr:year>2025</fr:year>
-                      <fr:month>9</fr:month>
-                      <fr:day>6</fr:day>
-                    </fr:date>
-                    <fr:uri>https://machanhoid.github.io/forest/0005/</fr:uri>
-                    <fr:display-uri>0005</fr:display-uri>
-                    <fr:route>/forest/0005/</fr:route>
-                    <fr:title text="in verifiable elections that scale for free">in verifiable elections that scale for free</fr:title>
-                    <fr:taxon>doubts</fr:taxon>
-                  </fr:frontmatter>
-                  <fr:mainmatter>
-                    <html:ol><html:li> Why do we need threshold decryption and not just one decrypting server if there is a ZKP to prove it anyways?</html:li>
-    <html:li> Similarly with the shuffling?</html:li></html:ol>
-                  </fr:mainmatter>
-                </fr:tree>
               </fr:mainmatter>
             </fr:tree>
           </fr:mainmatter>
